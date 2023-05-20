@@ -4,9 +4,11 @@
   width: 100%;
 }
 body {
-  background-image: linear-gradient(170deg,purple, black);
+  background-image: linear-gradient(180deg,rgb(135, 12, 173), black);
 }
-h1.headTitle{
+h1.title{
   margin-top: 5%;
   color : white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
