@@ -1,14 +1,31 @@
 #root {
   text-align: center;
-  margin-bottom: 100%;
   width: 100%;
 }
-body {
-  background-image: linear-gradient(180deg,rgb(135, 12, 173), black);
+.App
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 h1.title{
-  margin-top: 5%;
-  color : white;
+  margin-top: 10%;
+  color : black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.siteFooter{
+  margin-top: auto
+}
 
+section.userContact
+{
+  margin-right: 6rem;
+}
+.footer-content__2
+{
+  list-style-type: none;
+  margin-right: 1.5rem;
+}
+.details{
+  margin-left: 14rem;
+}
