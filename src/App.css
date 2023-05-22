@@ -7,7 +7,9 @@ img.models {
   height: 9rem;
   width: 9rem;
 }
-.App {
+
+.App
+{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -225,5 +227,22 @@ section.userContact
 }
 .details{
   margin-left: 14rem;
+  color : black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.siteFooter{
+  margin-top: auto
 }
 
+section.userContact
+{
+  margin-right: 6rem;
+}
+.footer-content__2
+{
+  list-style-type: none;
+  margin-right: 1.5rem;
+}
+.details{
+  margin-left: 14rem;
+}
