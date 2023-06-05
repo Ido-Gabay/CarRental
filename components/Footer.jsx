@@ -52,36 +52,6 @@ export default function Footer() {
             We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.
           </p>
         </section>
-        <section className="details">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 mb-3 mb-md-0">
-              <h5 className="text-uppercase">Details</h5>
-              <ul class="footer-content__2">
-                <li><i class="fa-solid fa-phone"></i> &nbsp; (123) -456-789</li>
-                <li><i class="fa-solid fa-envelope"></i>&nbsp; carrental@gmail.com</li>
-                </ul>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-3 mb-md-0">
-              <h5 className="text-uppercase">Company</h5>
-
-              <ul class="footer-content__2">
-                <li>New York</li>
-                <li>Careers</li>
-                <li>Mobile</li>
-                <li>Blog</li>
-                <li>How we work</li>
-              </ul>
-            </div>
-            <div className="col-lg-3 col-md-1 mb-3 mb-md-0">
-              <h5 className="text-uppercase">Working Hours</h5>
-              <ul className="footer-content__2">
-                <li>Mon - Fri: 9:00AM - 9:00PM</li>
-                <li>Sat: 9:00AM - 19:00PM</li>
-                <li>Sun: Closed</li>
-              </ul>
-            </div>
-          </div>
-        </section>
       </div>
     </footer>
   );

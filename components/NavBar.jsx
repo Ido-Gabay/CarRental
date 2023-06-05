@@ -7,15 +7,16 @@ import { VehicleModels } from "./VehicleModels";
 import { Contact } from "./Contact";
 import { Login } from './Login'
 
-
 import { Person } from "react-bootstrap-icons";
 
 export default function NavBar() {
   return (
-    <div>
+    <div className="navbar-sticky" style={{ position: "sticky", top: 0, zIndex: 100 }}>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand"><img className='home_logo' src="https://cdn.pixabay.com/photo/2014/04/03/00/41/race-car-309123_1280.png" alt = '' /></Link>
+          <Link to="/" className="navbar-brand">
+            <img className='home_logo' src="https://cdn.pixabay.com/photo/2014/04/03/00/41/race-car-309123_1280.png" alt='' />
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -35,10 +36,10 @@ export default function NavBar() {
               </li>
             </ul>
             <div className="nav_login">
-                <Link to="/login" className="nav-link"><Person className="login_logo" /></Link>
-              </div>
-        </div>
+              <Link to="/login" className="nav-link"><Person className="login_logo" /></Link>
+            </div>
           </div>
+        </div>
       </nav>
 
       <Routes>

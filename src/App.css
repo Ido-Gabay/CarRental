@@ -14,11 +14,6 @@ img.models {
   display: flex;
   flex-direction: column;
 }
-h1.title{
-  margin-top: 10%;
-  color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .siteFooter{
   margin-top: auto;
 }
@@ -231,7 +226,8 @@ section.userContact
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .siteFooter{
-  margin-top: auto
+  margin-top: auto;
+  height: 0rem;
 }
 
 section.userContact
@@ -242,7 +238,43 @@ section.userContact
 {
   list-style-type: none;
   margin-right: 1.5rem;
+  color: white;
+}
+.footerTitle
+{
+  color: white;
 }
 .details{
-  margin-left: 14rem;
+  margin-left: 12rem;
+}
+.container
+{
+  margin-bottom: 5rem;
+}
+.carImg
+{
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: auto;
+  display: flex;
+}
+.grid-container
+{
+  text-align: left;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box-form__group {
+  flex: 1 1 50%;
+}
+.navbar
+{
+  position: sticky;
 }
