@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Twitter, Facebook, Google, EyeSlash } from 'react-bootstrap-icons';
 
 
@@ -41,7 +40,7 @@ export function Login() {
                               <div className="col-md-6 col-12">
                                   <div className="form-group form-check">
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                    <EyeSlash className="eyeslash" />
+                                    <EyeSlash className="eyeslash"/> 
                                     <label className="form-check-label" for="exampleCheck1">Keep me connected</label>
                                   </div>
                               </div>
